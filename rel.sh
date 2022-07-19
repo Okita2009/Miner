@@ -31,7 +31,7 @@ fi
 if [ $all = false ]; then
     git_merges="--merges"
     git_format=""
-else
+el
     git_merges=""
     git_format="%H "
 fi
