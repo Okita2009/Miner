@@ -108,4 +108,4 @@ for repo in $repos; do
         echo -e "tag already present on ${repo} at another hash ${TAG_REF}; skipping"
     fi
     cd ../../
-done
+do
